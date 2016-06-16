@@ -24,7 +24,7 @@ echo.
 echo.
 echo #NetFree add certs
 type "%CURR_DIR%\add_certs.crt"
-ping -n 30 127.0.0.1 > nul 
+powershell -command "Start-Sleep -s 300"
 exit /b
 
 :not_exist_cacerts
